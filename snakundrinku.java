@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author Otep
  */
-public class Prototep {
+public class snakundrinku {
 
     public static void main(String[] args) 
     {
