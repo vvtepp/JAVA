@@ -100,12 +100,7 @@ public class snakundrinku {
                         }
                     }
                 }
-            }
-            else
-            {
-                System.out.println(" Invalid Input ");
-            }
-            
+            }  
             if(ch2==2)
             {
                 System.out.println(" Nova 20 Pesos ");
