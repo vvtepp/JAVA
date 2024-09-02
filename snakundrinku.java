@@ -28,7 +28,7 @@ public class snakundrinku {
             
             System.out.println(" Enter the snacks of your choice: ");
             int ch2 = input.nextInt();
-            
+ 
             if (ch2==1)
             {
                 System.out.println(" Piatos 20 Pesos ");
@@ -102,6 +102,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else if (ch4>=3)
+                    {
+                            System.out.println(" Invalid Input ");
+                    }
                 }
                 
                 else if (ch3==2)
@@ -128,7 +132,10 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                
+                else if (ch3>=3)
+                {
+                    System.out.println(" Invalid Input ");
+                }
             }
             
             if (ch2==2)
@@ -204,6 +211,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else if (ch7>=3)
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
                 
                 else if (ch6==2)
@@ -230,17 +241,17 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else
+                else if (ch6>=3)
                 {
                     System.out.println(" Invalid Input ");
                 }
             }
-            else
+            else if (ch2>=3)
             {
-                System.out.println(" Invalid Input ");
-            }
+               System.out.println(" Invalid Input ");      
+            }   
         } 
-        
+
         else if (ch1==2)
         {
             System.out.println(" Drinks ");
@@ -323,6 +334,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else if (ch10>=3)
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
                 
                 else if (ch9==2)
@@ -349,7 +364,10 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                
+                else if (ch9>=3)
+                {
+                    System.out.println(" Invalid Input ");
+                }
             }
             
             if (ch8==2)
@@ -425,7 +443,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    
+                    else if (ch12>=3)
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
                 
                 else if (ch11==2)
@@ -452,14 +473,14 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else
+                else if (ch11>=3)
                 {
                     System.out.println(" Invalid Input ");
                 }
             }
-            else
+            else if (ch8>=3)
             {
-                System.out.println(" Invalid Input ");
+               System.out.println(" Invalid Input ");
             }
         }
         else
