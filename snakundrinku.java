@@ -185,7 +185,11 @@ public class snakundrinku {
                     }
                 }    
             }
-        }
+            else
+            {
+                System.out.println(" Invalid Input ");
+            }
+        } 
         else if (ch1==2)
         {
             System.out.println(" Drinks ");
