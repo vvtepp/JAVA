@@ -77,6 +77,7 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    
                     if (ch4==2)
                     {
                         System.out.println(" Water 27 Pesos ");
@@ -101,12 +102,35 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else
+                }
+                
+                else if (ch3==2)
+                {
+                    System.out.println(" Piatos 20 Pesos ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
                     {
-                        System.out.println(" Invalid Input ");
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
                     }
                 }
+                
             }
+            
             if (ch2==2)
             {
                 System.out.println(" Nova 20 Pesos ");
@@ -155,6 +179,7 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    
                     if (ch7==1)
                     {
                         System.out.println(" Coke 25 Pesos ");
@@ -179,17 +204,43 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else
+                }
+                
+                else if (ch6==2)
+                {
+                    System.out.println(" Nova 20 Pesos ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
                     {
-                        System.out.println(" Invalid Input ");
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
                     }
-                }    
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
+                }
+                else
+                {
+                    System.out.println(" Invalid Input ");
+                }
             }
             else
             {
                 System.out.println(" Invalid Input ");
             }
         } 
+        
         else if (ch1==2)
         {
             System.out.println(" Drinks ");
@@ -247,6 +298,7 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    
                     if (ch10==2)
                     {
                         System.out.println(" Nova 20 Pesos ");
@@ -271,12 +323,35 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else
+                }
+                
+                else if (ch9==2)
+                {
+                    System.out.println(" Coke 25 Pesos ");
+                    int tot;
+                    tot = 25;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
                     {
-                        System.out.println(" Invalid Input ");
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
                     }
                 }
+                
             }
+            
             if (ch8==2)
             {
                 System.out.println(" Water 27 Pesos ");
@@ -325,6 +400,7 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    
                     if (ch12==2)
                     {
                         System.out.println(" Nova 20 Pesos ");
@@ -349,10 +425,36 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else
+                    
+                }
+                
+                else if (ch11==2)
+                {
+                    System.out.println(" Water 27 Pesos ");
+                    int tot;
+                    tot = 27;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
                     {
-                        System.out.println(" Invalid Input ");
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
                     }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
+                }
+                else
+                {
+                    System.out.println(" Invalid Input ");
                 }
             }
             else
