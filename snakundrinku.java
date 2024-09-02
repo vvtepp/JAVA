@@ -101,6 +101,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
             }
             if (ch2==2)
@@ -175,9 +179,13 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }    
-            }  
-        } 
+            }
+        }
         else if (ch1==2)
         {
             System.out.println(" Drinks ");
@@ -259,6 +267,10 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
             }
             if (ch8==2)
@@ -333,8 +345,20 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
+                    else
+                    {
+                        System.out.println(" Invalid Input ");
+                    }
                 }
             }
+            else
+            {
+                System.out.println(" Invalid Input ");
+            }
+        }
+        else
+        {
+            System.out.println(" Invalid Input ");
         }
     }
 }
