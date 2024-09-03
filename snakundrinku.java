@@ -77,13 +77,12 @@ public class Prototep {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    
-                    if (ch4==2)
+                    else
                     {
-                        System.out.println(" Water 27 Pesos ");
+                        System.out.println(" Invalid Input ");
                         int tot;
-                        tot = Water + Pia;
-                        
+                        tot = 25;
+                    
                         System.out.println("Total is: " + tot);
                         System.out.println("Enter your cash: ");
                         int csh = input.nextInt();
@@ -102,12 +101,13 @@ public class Prototep {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else
-                    {
-                        System.out.println(" Invalid Input ");
-                        int tot;
-                        tot = 20;
                     
+                    if (ch4==2)
+                    {
+                        System.out.println(" Water 27 Pesos ");
+                        int tot;
+                        tot = Water + Pia;
+                        
                         System.out.println("Total is: " + tot);
                         System.out.println("Enter your cash: ");
                         int csh = input.nextInt();
