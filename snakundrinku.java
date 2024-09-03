@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.prototep;
+package com.mycompany.pasd;
 import java.util.Scanner;
 /**
  *
  * @author CL2-PC19
  */
-public class Prototep {
+public class Pasd {
 
     public static void main(String[] args) 
     {
@@ -397,6 +397,26 @@ public class Prototep {
                     else if (ch10>=3)
                     {
                         System.out.println(" Invalid Input ");
+                        int tot;
+                        tot = 25;
+                            
+                        System.out.println("Total is: " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                        
+                        while (csh<tot)
+                        {
+                            System.out.println(" Try Again ");
+                            System.out.println(" Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println(" Change is: " + chng);
+                        }
                     }
                 }
                 
@@ -525,7 +545,27 @@ public class Prototep {
                     }
                     else if (ch12>=3)
                     {
-                        System.out.println(" Invalid Input ");
+                        System.out.println(" Nova 20 Pesos ");
+                        int tot;
+                        tot = Coke + Nova;
+                            
+                        System.out.println("Total is: " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                        
+                        while (csh<tot)
+                        {
+                            System.out.println(" Try Again ");
+                            System.out.println(" Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println(" Change is: " + chng);
+                        }
                     }
                 }
                 
@@ -553,7 +593,7 @@ public class Prototep {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else
+                else  
                 {
                     System.out.println(" Invalid Input ");
                     int tot;
