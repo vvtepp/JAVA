@@ -6,9 +6,9 @@ package com.mycompany.prototep;
 import java.util.Scanner;
 /**
  *
- * @author Otep
+ * @author CL2-PC19
  */
-public class snakundrinku {
+public class Prototep {
 
     public static void main(String[] args) 
     {
@@ -102,9 +102,29 @@ public class snakundrinku {
                             System.out.println(" Change is: " + chng);
                         }
                     }
-                    else if (ch4>=3)
+                    else
                     {
-                            System.out.println(" Invalid Input ");
+                        System.out.println(" Invalid Input ");
+                        int tot;
+                        tot = 20;
+                    
+                        System.out.println("Total is: " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                        
+                        while (csh<tot)
+                        {
+                            System.out.println(" Try Again ");
+                            System.out.println(" Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println(" Change is: " + chng);
+                        }
                     }
                 }
                 
@@ -132,9 +152,29 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else if (ch3>=3)
+                else 
                 {
                     System.out.println(" Invalid Input ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
+                    {
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
                 }
             }
             
@@ -241,9 +281,29 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else if (ch6>=3)
+                else
                 {
                     System.out.println(" Invalid Input ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
+                    {
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
                 }
             }
             else if (ch2>=3)
@@ -364,9 +424,29 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else if (ch9>=3)
+                else
                 {
                     System.out.println(" Invalid Input ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
+                    {
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
                 }
             }
             
@@ -473,9 +553,29 @@ public class snakundrinku {
                         System.out.println(" Change is: " + chng);
                     }
                 }
-                else if (ch11>=3)
+                else
                 {
                     System.out.println(" Invalid Input ");
+                    int tot;
+                    tot = 20;
+                    
+                    System.out.println("Total is: " + tot);
+                    System.out.println("Enter your cash: ");
+                    int csh = input.nextInt();
+                        
+                    while (csh<tot)
+                    {
+                        System.out.println(" Try Again ");
+                        System.out.println(" Enter your cash: ");
+                        csh = input.nextInt();
+                    }
+                        
+                    if (csh>=tot)
+                    {
+                        int chng;
+                        chng = csh - tot;
+                        System.out.println(" Change is: " + chng);
+                    }
                 }
             }
             else if (ch8>=3)
