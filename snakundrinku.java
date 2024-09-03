@@ -428,7 +428,7 @@ public class Prototep {
                 {
                     System.out.println(" Invalid Input ");
                     int tot;
-                    tot = 20;
+                    tot = 25;
                     
                     System.out.println("Total is: " + tot);
                     System.out.println("Enter your cash: ");
@@ -557,7 +557,7 @@ public class Prototep {
                 {
                     System.out.println(" Invalid Input ");
                     int tot;
-                    tot = 20;
+                    tot = 27;
                     
                     System.out.println("Total is: " + tot);
                     System.out.println("Enter your cash: ");
