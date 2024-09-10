@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.pasd;
+package com.mycompany.prototep;
 import java.util.Scanner;
 /**
  *
  * @author CL2-PC19
  */
-public class Pasd {
+public class Prototep {
 
     public static void main(String[] args) 
-    {
+ {
         Scanner input = new Scanner (System.in);
         
         System.out.println(" [1] - Snacks ");
@@ -254,6 +254,26 @@ public class Pasd {
                     else if (ch7>=3)
                     {
                         System.out.println(" Invalid Input ");
+                        int tot;
+                        tot = 20;
+                    
+                        System.out.println("Total is: " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                        
+                        while (csh<tot)
+                        {
+                            System.out.println(" Try Again ");
+                            System.out.println(" Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println(" Change is: " + chng);
+                        }
                     }
                 }
                 
@@ -545,9 +565,9 @@ public class Pasd {
                     }
                     else if (ch12>=3)
                     {
-                        System.out.println(" Nova 20 Pesos ");
+                        System.out.println(" Invalid Input ");
                         int tot;
-                        tot = Coke + Nova;
+                        tot = 27;
                             
                         System.out.println("Total is: " + tot);
                         System.out.println("Enter your cash: ");
